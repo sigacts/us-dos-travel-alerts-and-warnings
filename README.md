@@ -27,7 +27,7 @@ Each FIPS code is stored in the `countryTbl` table as a unique `countryCode` row
 The latitude (`countryLat`) and longitude (`countryLon`) of each country plot to the centroid of that nation's boundaries.
 
 #### Handling Location Exceptions
-If an alert or a warning has multiple countries listed, a unique placemark is created at the centroid of each country.
+If an alert or a warning has multiple countries listed, a unique placemark is created at the centroid of each referenced country.
 
 If there is no location listed for an alert or a warning, the placemark is set to a `World` location and plotted at the coordinates 0, 0 (latitude and longitude).
 
