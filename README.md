@@ -38,4 +38,4 @@ If there is no location listed for an alert or a warning, the placemark is set t
 `http://travel.state.gov/_res/rss/TAs.xml`
 
 #### Sample KML in Google Earth
-![](http://www.sigacts.com/images/US-DOS-Travel-Notifications-To-KML.png)
+![us-dos-travel-notifications-to-kml](https://cloud.githubusercontent.com/assets/1865304/6175966/47d1ddda-b2b8-11e4-82ce-82da41967e5b.png)
