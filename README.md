@@ -20,7 +20,9 @@ To choose whether the script parses alerts or warnings, set the `feedDetails` va
 #### Country 
 The Department of State KML feeds reference countries with a two digit FIPS identifier provided in the `<dc:identifier>` XML tag.
 
-A collection of identified FIPS codes are stored in the `countryTbl` table of the `countriesFIPs.sqlite` SQLite database. Each FIPS code is stored as a unique `countryCode` row with corresponding `countryName`, `countryLat`, and `countryLon` values.
+A collection of identified FIPS codes are stored in the `countriesFIPs.sqlite` SQLite database.
+
+Each FIPS code is stored in the `countryTbl` table as a unique `countryCode` row with corresponding `countryName`, `countryLat`, and `countryLon` values.
 
 The latitude and longitude of each country plot to the centroid of that nation's boundaries.
 
