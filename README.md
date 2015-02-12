@@ -31,10 +31,10 @@ If an alert or a warning has multiple countries listed, a unique placemark is cr
 
 If there is no location listed for an alert or a warning, the placemark is set to a `World` location and plotted at the coordinates 0, 0 (latitude and longitude).
 
-#### Travel Warnings Location
+#### Travel Warnings Feed
 `http://travel.state.gov/_res/rss/TWs.xml`
 
-#### Travel Alerts Locations
+#### Travel Alerts Feed
 `http://travel.state.gov/_res/rss/TAs.xml`
 
 #### Sample KML in Google Earth
